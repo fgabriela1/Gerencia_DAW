@@ -1,5 +1,14 @@
+using Administracion.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<RestauranteDBProyectoAContext>(opt =>
+        opt.UseSqlServer(
+            builder.Configuration.GetConnectionString("RestauranteDBProyectoAConnection")
+            )
+        );
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
