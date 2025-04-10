@@ -12,5 +12,7 @@
         public int? RolID { get; set; }
         public Roles? Rol { get; set; }
         public DateTime FechaIngreso { get; set; }
+
+
     }
 }
