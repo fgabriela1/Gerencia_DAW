@@ -25,7 +25,7 @@ namespace Administracion.Controllers
 
         public IActionResult Reporte()
         {
-            return View();
+            return View("Reporte");
         }
 
         public IActionResult VentasReporte()
