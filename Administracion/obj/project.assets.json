@@ -4006,23 +4006,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\darwi\\.nuget\\packages\\": {},
+    "C:\\Users\\Srche\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VISUAL STUDIO\\PROYECTOS\\APIS\\Modulo-6_Gerencia\\Administracion\\Administracion.csproj",
+      "projectUniqueName": "C:\\Users\\Srche\\Source\\Repos\\Gerencia_DAW\\Administracion\\Administracion.csproj",
       "projectName": "Administracion",
-      "projectPath": "D:\\VISUAL STUDIO\\PROYECTOS\\APIS\\Modulo-6_Gerencia\\Administracion\\Administracion.csproj",
-      "packagesPath": "C:\\Users\\darwi\\.nuget\\packages\\",
-      "outputPath": "D:\\VISUAL STUDIO\\PROYECTOS\\APIS\\Modulo-6_Gerencia\\Administracion\\obj\\",
+      "projectPath": "C:\\Users\\Srche\\Source\\Repos\\Gerencia_DAW\\Administracion\\Administracion.csproj",
+      "packagesPath": "C:\\Users\\Srche\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Srche\\Source\\Repos\\Gerencia_DAW\\Administracion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\darwi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Srche\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

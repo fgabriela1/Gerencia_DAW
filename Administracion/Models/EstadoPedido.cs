@@ -3,6 +3,6 @@
     public class EstadoPedido
     {
         public int Id_estadoPedido { get; set; }
-        public string EstadoNombre { get; set; } = null!;
+        public string Estado_Nombre { get; set; } = null!;
     }
 }

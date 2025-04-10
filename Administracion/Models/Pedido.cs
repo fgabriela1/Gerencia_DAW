@@ -6,5 +6,6 @@
         public int Id_mesa { get; set; }
         public int Id_mesero { get; set; }
         public int Id_EstadoPedido { get; set; }
+
     }
 }
