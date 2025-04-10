@@ -1,0 +1,8 @@
+C:\Users\Cuty\source\repos\login_DAW\login_DAW\obj\Debug\net8.0\login_DAW.csproj.AssemblyReference.cache
+C:\Users\Cuty\source\repos\login_DAW\login_DAW\obj\Debug\net8.0\login_DAW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cuty\source\repos\login_DAW\login_DAW\obj\Debug\net8.0\login_DAW.AssemblyInfoInputs.cache
+C:\Users\Cuty\source\repos\login_DAW\login_DAW\obj\Debug\net8.0\login_DAW.AssemblyInfo.cs
+C:\Users\Cuty\source\repos\login_DAW\login_DAW\obj\Debug\net8.0\login_DAW.csproj.CoreCompileInputs.cache
+C:\Users\Cuty\source\repos\login_DAW\login_DAW\obj\Debug\net8.0\login_DAW.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Cuty\source\repos\login_DAW\login_DAW\obj\Debug\net8.0\login_DAW.RazorAssemblyInfo.cache
+C:\Users\Cuty\source\repos\login_DAW\login_DAW\obj\Debug\net8.0\login_DAW.RazorAssemblyInfo.cs
