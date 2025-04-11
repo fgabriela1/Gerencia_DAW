@@ -1,39 +1,35 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio de Sesión";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Retana</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
-
-<div class="row justify-content-center mt-5">
-    <div class="col-md-4">
-        <div class="card shadow-lg">
-            <div class="card-header bg-primary text-white text-center">
-                <h4>Iniciar Sesión</h4>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-lg rounded-4 border-0">
+                <div class="card-header bg-primary text-white text-center rounded-top-4">
+                    <h4 class="mb-0">Iniciar Sesión</h4>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-controller="Home" asp-action="Buscar" method="get">
+                        <div class="form-group mb-3">
+                            <label for="username" class="form-label">Usuario</label>
+                            <input type="text" class="form-control form-control-lg" id="username" name="Prueba" required />
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control form-control-lg" id="password" name="123" required />
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success btn-lg">Iniciar Sesión</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="card-body">
-                <form asp-controller="Pedidos" asp-action="Buscar" method="get">
-                    <div class="form-group">
-                        <label for="username">Usuario</label>
-                        <input type="text" class="form-control" id="username" name="Username" required />
-                    </div>
-                    <div class="form-group mt-3">
-                        <label for="password">Contraseña</label>
-                        <input type="password" class="form-control" id="password" name="Password" required />
-                    </div>
-                    <div class="form-group text-center mt-4">
-                        <button type="submit" class="btn btn-success w-100">Iniciar Sesión</button>
-                    </div>
-                </form>
+
+            <div class="text-center mt-4">
+                <h1 class="display-6">RestauranteDBProyectoA</h1>
+                <p class="text-muted">Desarrollado con <a href="https://learn.microsoft.com/aspnet/core" target="_blank">ASP.NET Core</a>.</p>
             </div>
         </div>
     </div>
-</div>
-
-
-<div class="text-center">
-    <h1 class="display-4">RestauranteDBProyectoA</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>

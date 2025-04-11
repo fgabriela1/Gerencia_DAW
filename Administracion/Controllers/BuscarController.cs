@@ -4,7 +4,7 @@ namespace Administracion.Controllers
 {
     public class BuscarController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Buscar()
         {
             return View();
         }

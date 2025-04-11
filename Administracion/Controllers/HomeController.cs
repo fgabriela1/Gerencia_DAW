@@ -35,7 +35,7 @@ namespace Administracion.Controllers
 
         public IActionResult Buscar()
         {
-            return View();
+            return View("Buscar");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
