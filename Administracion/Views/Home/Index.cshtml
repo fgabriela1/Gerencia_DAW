@@ -3,6 +3,37 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">Retana</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-4">
+        <div class="card shadow-lg">
+            <div class="card-header bg-primary text-white text-center">
+                <h4>Iniciar Sesión</h4>
+            </div>
+            <div class="card-body">
+                <form asp-controller="Pedidos" asp-action="Buscar" method="get">
+                    <div class="form-group">
+                        <label for="username">Usuario</label>
+                        <input type="text" class="form-control" id="username" name="Username" required />
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="password">Contraseña</label>
+                        <input type="password" class="form-control" id="password" name="Password" required />
+                    </div>
+                    <div class="form-group text-center mt-4">
+                        <button type="submit" class="btn btn-success w-100">Iniciar Sesión</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="text-center">
+    <h1 class="display-4">RestauranteDBProyectoA</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
